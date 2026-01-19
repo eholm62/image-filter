@@ -32,7 +32,7 @@ if not args.input:
     sys.exit()
 if not args.output:
     print("Warning: output will go to output.mp4 because no output file was specified")
-    user_input: str = input("Are you sure you want to proceed? [Y/n]: ")
+    user_input: str = input("Are you sure you want to proceed? [y/N]: ")
     if user_input != "Y" and user_input != "y":
         print("exiting")
         sys.exit()
